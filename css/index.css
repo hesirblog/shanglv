@@ -1,0 +1,95 @@
+.top,.mainbox,.foot{width:1004px;margin:0px auto;}
+.top_1{padding-top:10px;width:100%;float:left;border:1px solid #D5D6D8;border-top:0px}
+.top_1_right{width:644px;float:left;margin-left:20px;margin-top:10px;*margin-top:0px}
+.tel dl dt{width:370px;height:62px;float:left}
+.tel dl dt img{margin-top:12px}
+.tel dl dd{*width:264px;float:right;height:27px;}
+.tel dl dd a{height:100%;line-height:27px}
+.logo{margin-left:26px;float:left}
+.top_nav_01{margin-top:10px}
+.top_nav_02{width:100%;height:24px;line-height:24px;margin:10px 0px}
+.top_nav_02 a{float:left;margin-right:23px;}
+.top_nav_02 a.mrg_0{margin-right:0px;float:right}
+.country{width:116px;height:27px;float:left;line-height:27px;background:url(../images/bg_country.jpg) left center no-repeat;border:0px;padding:5px;text-align:center;border:0px}
+.language{width:86px;height:27px;line-height:27px;text-align:center;background:url(../images/bg_language.jpg) left center no-repeat;float:left;display:block;margin-left:10px;}
+.search .sh_left{width:27px;height:27px;display:block;background:url(../images/bg_search_left.jpg) left center no-repeat;float:left}
+.search .sh_middle{width:456px;height:25px;text-indent:6px;line-height:25px;display:block;border:1px solid #CACACA;border-left:0px;float:left}
+.search .sh_right{width:38px;height:27px;display:block;border:0px;background:url(../images/bg_search_btn.jpg) left center no-repeat;float:left}
+.ajcx{width:104px;height:29px;background:url(../images/bg_ajcx_btn.jpg) left center no-repeat;display:block;float:right}
+
+/* 蓝色导航 begin */
+.blue_menu{width:100%;float:left;height:68px;background-color:#0259A5;margin-top:10px}
+.blue_menu li{float:left;height:68px}
+.blue_menu li dl{margin:10px 4px}
+.blue_menu li dl dd{float:left;padding:5px}
+.blue_menu li dl dd a{color:#FFF}
+.blue_menu li.blue_01{width:144px;}
+.blue_menu li.blue_02{width:246px;}
+.blue_menu li.blue_03{width:110px;}
+.blue_menu li.blue_04{width:144px;}
+.blue_menu li.blue_05{width:76px;}
+.blue_menu li.blue_06{width:146px;}
+.blue_menu li.blue_07{width:120px;}
+.blue_menu li.spline{width:3px;height:68px;background:url(../images/bg_bignav_line.jpg) left center no-repeat;}
+/* 蓝色导航 end */
+
+/* ad begin */
+.ad_01{width:1004px;height:80px;float:left}
+/* ad end */
+
+/* top_nav_03 begin */
+.banner_nav{width:940px;margin:0px 32px;margin-top:8px;float:left}
+.banner_nav li{width:48px;float:left;padding:5px 15px;}
+.banner_nav li a{width:100%;float:left;display:block}
+/* top_nav_03 end */
+
+/* rc_news begin */
+.rc_news{width:100%;float:left;margin-top:8px}
+.rc_news dl{width:332px;float:left;}
+.rc_news dl dt{width:104px;height:80px;float:left}
+.rc_news dl dd{float:left;height:24px;line-height:24px;margin-left:6px;width:220px;}
+.rc_news dl dd.title_b{font-size:14px;font-weight:bold;color:#0059A9;margin-top:4px}
+/* rc_news end */
+
+/* main_nav begin */
+.main_nav{width:1002px;height:42px;background:url(../images/bg_middle_nav.jpg) left center repeat-x;display:block;float:left;border:1px solid #D2D6D9;margin-top:8px}
+.main_nav li{float:left;padding:14px 18px}
+.main_nav li a{color:#;}
+.main_nav li a:hover{color:#cd0200;}
+/* main_nav end */
+
+/* top_2 begin */
+.top_2{width:100%;float:left;margin-top:8px}
+.category{width:188px;border:1px solid #CAD9DE;float:left;background-color:#F1F5F8 ;}
+.category h2{font-size:12pt;font-weight:bold;font-family:"微软雅黑";color:#BE141D;text-align:center;margin-top:10px}
+.category ul{margin-left:6px;margin-top:10px;margin-right:6px}
+.category ul li{width:100%;background:url(../images/bg_dashed.jpg) bottom left repeat-x;height:32px;line-height:32px;text-indent:4px}
+.category ul li a{width:96%;float:left;display:block;background:url(../images/icon_arrow_01_right.jpg) center right no-repeat; color:#0463B5}
+.category ul li.none,.category ul li.more a{background:none;text-decoration:none}
+.category ul li.more{height:12px;background:url(../images/icon_slidedown.jpg) bottom center no-repeat}
+.category ul li.more a{height:12px;}
+
+.banner{width:810px;float:left;margin-left:4px}
+.roll_img{width:808px;height:164px;border:1px solid #D2D6D9;margin-top:4px}
+.left_control{width:38px;height:164px;display:block;float:left;background:url(../images/icon_arrow_02_left.jpg) center center no-repeat;}
+a.left_control,a.right_control{}
+.roll_img ul{width:740px;height:164px;float:left}
+.roll_img ul li{float:left}
+.right_control{width:38px;height:164px;display:block;float:left;background:url(../images/icon_arrow_02_right.jpg) center center no-repeat;}
+/* top_2 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

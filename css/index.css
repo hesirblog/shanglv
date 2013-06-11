@@ -1,4 +1,4 @@
-.top,.mainbox,.foot{width:1004px;margin:0px auto;}
+.top,.mainbox,.flink{width:1004px;margin:0px auto;}
 .top_1{padding-top:10px;width:100%;float:left;border:1px solid #D5D6D8;border-top:0px}
 .top_1_right{width:644px;float:left;margin-left:20px;margin-top:10px;*margin-top:0px}
 .tel dl dt{width:370px;height:62px;float:left}
@@ -34,7 +34,8 @@
 /* 蓝色导航 end */
 
 /* ad begin */
-.ad_01{width:1004px;height:80px;float:left}
+.ad_01,.ad_02,.ad_03{width:1004px;height:90px;float:left}
+.ad_02,.ad_03{margin-top:10px}
 /* ad end */
 
 /* top_nav_03 begin */
@@ -64,19 +65,52 @@
 .category h2{font-size:12pt;font-weight:bold;font-family:"微软雅黑";color:#BE141D;text-align:center;margin-top:10px}
 .category ul{margin-left:6px;margin-top:10px;margin-right:6px}
 .category ul li{width:100%;background:url(../images/bg_dashed.jpg) bottom left repeat-x;height:32px;line-height:32px;text-indent:4px}
-.category ul li a{width:96%;float:left;display:block;background:url(../images/icon_arrow_01_right.jpg) center right no-repeat; color:#0463B5}
+.category ul li a{width:96%;display:block;background:url(../images/icon_arrow_01_right.jpg) center right no-repeat; color:#0463B5}
 .category ul li.none,.category ul li.more a{background:none;text-decoration:none}
-.category ul li.more{height:12px;background:url(../images/icon_slidedown.jpg) bottom center no-repeat}
+.category ul li.more{height:12px;background:url(../images/icon_slidedown.jpg) bottom center no-repeat;float:left}
 .category ul li.more a{height:12px;}
 
 .banner{width:810px;float:left;margin-left:4px}
 .roll_img{width:808px;height:164px;border:1px solid #D2D6D9;margin-top:4px}
-.left_control{width:38px;height:164px;display:block;float:left;background:url(../images/icon_arrow_02_left.jpg) center center no-repeat;}
-a.left_control,a.right_control{}
+a.left_control,a.right_control{width:32px;height:164px;display:block;float:left;}
+a.left_control:hover,a.right_control:hover{text-decoration:none}
+.left_control{background:url(../images/icon_arrow_02_left.jpg) center center no-repeat;}
+.right_control{background:url(../images/icon_arrow_02_right.jpg) center center no-repeat;}
 .roll_img ul{width:740px;height:164px;float:left}
-.roll_img ul li{float:left}
-.right_control{width:38px;height:164px;display:block;float:left;background:url(../images/icon_arrow_02_right.jpg) center center no-repeat;}
+.roll_img ul li{float:left;margin:26px 0px}
+.roll_img ul li .pic{width:120px;height:97px;border:1px solid #D2D6D9;margin:0px 13px}
+.roll_img ul li .title{width:148px;height:24px;line-height:24px;text-align:center}
+.roll_img .tempWrap{float:left}
+
 /* top_2 end */
+
+/* newsbox begin */
+.news_box{width:100%;float:left;margin-top:10px}
+.left_news{width:278px;float:left;border:1px solid #6989AF}
+.left_news h2{font-size:12pt;font-family:"黑体";color:#025AA1;font-weight:bold;text-align:center;margin-top:15px}
+.left_news ul{width:226px;margin:0px auto;}
+.left_news ul li{height:24px;line-height:24px;margin:8px 0px;background:url(../images/icon_square_01.gif) left center no-repeat;padding-left:10px}
+.left_news ul li a{width:100%;float:left;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.right_news{width:712px;margin-left:10px;float:left;}
+.tab_news{width:100%;float:left;background:url(../images/bg_news_list.jpg) left top repeat-x;border:1px solid #D4D8DB;}
+.tab_news span.menu_title{font-size:12pt;font-weight:bold;color:#0162B1;float:left;margin:10px 0px 10px 10px;font-family:"黑体"}
+.tab_news a.more{float:right;margin:10px 10px 10px 0px;color:#166CB9}
+.tab_box{width:100%;float:left}
+.tab_title{float:left;width:702px;margin-left:4px;border-bottom:1px solid #B80000;}
+.tab_title li{float:left;width:74px;height:32px;line-height:32px;border-right:1px solid #ccc;border-top:1px solid #ccc;text-align:center;background:url(../images/bg_nav_white.jpg) left center repeat-x;}
+.tab_title li.cur{background-image:none;background-color:#B80000}
+.tab_title li.cur a{color:#FFF}
+.tab_title li a{width:100%;float:left;font-size:10pt;font-family:"微软雅黑";font-weight:bold}
+.tab_content{float:left;width:702px;margin-left:6px}
+.tab_content li{height:29px;line-height:29px;background:url(../images/icon_square_01.gif) left center no-repeat;padding-left:10px}
+.tab_content li a{width:100%;float:left;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/* newsbox end */
+
+/* flink begin */
+.flink{background:#87888A;margin-top:10px;color:#333}
+.flink li{padding:10px;float:left}
+.flink li a{color:#FFF}
+/* flink end */
 
 
 

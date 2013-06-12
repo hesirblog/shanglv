@@ -63,12 +63,22 @@
 .top_2{width:100%;float:left;margin-top:8px}
 .category{width:188px;border:1px solid #CAD9DE;float:left;background-color:#F1F5F8 ;}
 .category h2{font-size:12pt;font-weight:bold;font-family:"微软雅黑";color:#BE141D;text-align:center;margin-top:10px}
-.category ul{margin-left:6px;margin-top:10px;margin-right:6px}
-.category ul li{width:100%;background:url(../images/bg_dashed.jpg) bottom left repeat-x;height:32px;line-height:32px;text-indent:4px}
+.category ul{margin-top:10px;}
+.category ul li{width:100%;background:url(../images/bg_dashed.jpg) bottom left repeat-x;height:32px;line-height:32px;text-indent:12px;position:relative}
+.category ul li.out{background:url(../images/bg_dashed.jpg) bottom left repeat-x;}
 .category ul li a{width:96%;display:block;background:url(../images/icon_arrow_01_right.jpg) center right no-repeat; color:#0463B5}
+.category ul li.cur{background-color:#FFF;border:1px solid #CAD9DE;border-right:0px;border-left:0px;background-image:none}
+.category ul li.cur a{background:none;}
 .category ul li.none,.category ul li.more a{background:none;text-decoration:none}
 .category ul li.more{height:12px;background:url(../images/icon_slidedown.jpg) bottom center no-repeat;float:left}
 .category ul li.more a{height:12px;}
+
+.catgry_box{position:absolute;padding:16px 10px;left:188px;top:-20px;z-index:2;background-color:#FFF;border:1px solid #ccc;border-left:0px;width:560px;}
+.catgry_box h3{width:72px;height:22px;line-height:22px;font-weight:bold;color:#CB373E;font-family:"黑体";font-size:14px;float:left;}
+.catgry_box dl{width:488px;float:left}
+.catgry_box dl dd{float:left;margin:4px 0px;*padding:0px 8px;padding:0px 8px;border-right:1px solid #ccc;height:14px;line-height:14px;text-indent:0px;white-space:nowrap}
+.catgry_box dl dd a{float:left;width:100%;background-image:none;color:#5D5C5C;text-align:center;text-indent:0px}
+.bt_line{width:540px;height:1px;border-bottom:1px solid #ccc;float:left;margin:6px 0px 6px 13px;}
 
 .banner{width:810px;float:left;margin-left:4px}
 .roll_img{width:808px;height:164px;border:1px solid #D2D6D9;margin-top:4px}
@@ -80,7 +90,7 @@ a.left_control:hover,a.right_control:hover{text-decoration:none}
 .roll_img ul li{float:left;margin:26px 0px}
 .roll_img ul li .pic{width:120px;height:97px;border:1px solid #D2D6D9;margin:0px 13px}
 .roll_img ul li .title{width:148px;height:24px;line-height:24px;text-align:center}
-.roll_img .tempWrap{float:left}
+.roll_img .tempWrap{float:left;*z-index:-1;}
 
 /* top_2 end */
 

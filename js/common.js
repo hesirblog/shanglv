@@ -1,5 +1,17 @@
 //分类切换
-
+$(document).ready(function(){
+	var catgry = $(".catgry");
+	var catgry_box = $(".catgry_box");
+	catgry.each(function(index){
+		catgry.eq(index).hover(function(){
+			$(this).addClass("cur");
+			catgry_box.eq(index).show();
+		},function(){
+			catgry.removeClass("cur");
+			catgry_box.eq(index).hide();
+		});
+	});
+});
 
 //选项卡切换
 function ChangeTab(i,j)

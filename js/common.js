@@ -11,7 +11,18 @@ $(document).ready(function(){
 			catgry_box.eq(index).hide();
 		});
 	});
+	
+	//展开收缩分类
+	var allcategory = $(".allcategory");
+		allcategory.hover(function(){
+			$(this).removeClass("category42");	
+		},function(){
+			$(this).addClass("category42");
+	});
+	
 });
+
+
 
 //选项卡切换
 function ChangeTab(i,j)

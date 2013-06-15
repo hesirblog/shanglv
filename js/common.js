@@ -20,6 +20,17 @@ $(document).ready(function(){
 			$(this).addClass("category42");
 	});
 	
+	var main_nav = $(".m_nav");
+	var son_nav = $(".son_nav");
+	main_nav.each(function(index){
+		main_nav.eq(index).hover(function(){
+			son_nav.eq(index).show();
+		},function(){
+			son_nav.eq(index).hide();
+		});
+	});
+	
+	
 });
 
 

@@ -44,16 +44,19 @@ p{word-wrap:break-word}
 /* rc_news end */
 
 /* main_nav begin */
-.main_nav{width:1002px;height:42px;background:url(../images/bg_middle_nav.jpg) left center repeat-x;display:block;float:left;border:1px solid #D2D6D9;margin-top:8px}
-.main_nav li{float:left;padding:14px 18px}
-.main_nav li a{color:#;}
-.main_nav li a:hover{color:#cd0200;}
+.main_nav{width:1002px;height:42px;background:url(../images/bg_middle_nav.jpg) left center repeat-x;display:block;float:left;border:1px solid #D2D6D9;margin-top:8px;position:relative;z-index:1}
+.main_nav li{float:left;width:82px;height:42px;line-height:42px}
+.main_nav li a{width:100%;display:block;text-align:center;}
+.main_nav li a:hover{color:#cd0200;background:url(../images/bg_triangle.png) bottom center no-repeat;}
+.son_nav{width:80px;background-color:#FFF;border:1px solid #ccc;position:absolute;z-index:2;display:none}
+.son_nav dd a{width:100%;text-indent:14px;height:28px;line-height:28px;text-align:left}
+.son_nav dd a:hover{background-image:none}
 /* main_nav end */
 
 /* roll news begin */
 .roll_news{width:100%;height:44px;margin:4px 0px;float:left;position:relative;}
 .roll_newsbox{position:absolute;left:192px;width:812px}
-.roll_newsbox h3{width:88px;height:42px;line-height:42px;float:left;color:#0259A5;text-indent:10px}
+.roll_newsbox h3{width:88px;height:42px;line-height:42px;font-size:14px;float:left;color:#0259A5;text-indent:10px}
 .roll_newsbox ul{float:left;}
 .roll_newsbox ul li{height:42px;line-height:42px;float:left;}
 .roll_newsbox ul li a{color:#0259A5;font-size:12px;margin:0px 2px}
@@ -61,8 +64,9 @@ p{word-wrap:break-word}
 
 /* category begin */
 .category{width:188px;border:1px solid #CAD9DE;float:left;background-color:#F1F5F8 ;}
+.catetitle{width:166px;height:22px;float:left;text-align:center}
 .category h2{font-size:12pt;font-weight:bold;font-family:"微软雅黑";color:#BE141D;text-align:center;margin-top:10px}
-.category ul{margin-top:10px;}
+.category ul{width:100%;margin-top:10px;float:left;}
 .category ul li{width:100%;background:url(../images/bg_dashed.jpg) bottom left repeat-x;height:32px;line-height:32px;text-indent:12px;position:relative}
 .category ul li.out{background:url(../images/bg_dashed.jpg) bottom left repeat-x;}
 .category ul li a{width:96%;display:block;background:url(../images/icon_arrow_01_right.jpg) center right no-repeat; color:#0463B5}
@@ -72,8 +76,8 @@ p{word-wrap:break-word}
 .category ul li.more{height:12px;background:url(../images/icon_slidedown.jpg) bottom center no-repeat;float:left}
 .category ul li.more a{height:12px;}
 .category42{height:42px;overflow:hidden;position:absolute;}
-.category42 h2{cursor:pointer;}
-.triangle{border-color:#333 #F1F5F8 #F1F5F8 #F1F5F8;border-style:solid;border-width:6px;width:0px;height:0px;float:right;margin:10px 10px 0px 0px}
+.category42 h2{cursor:pointer;width:188px;height:22px;}
+.triangle{border-color:#333 #F1F5F8 #F1F5F8 #F1F5F8;border-style:solid;border-width:6px;width:0px;height:0px;float:left;margin:10px 10px 0px 0px}
 
 .catgry_box{position:absolute;padding:16px 10px;left:188px;top:-20px;z-index:2;background-color:#FFF;border:1px solid #ccc;border-left:0px;width:560px;}
 .catgry_box h3{width:72px;height:22px;line-height:22px;font-weight:bold;color:#CB373E;font-family:"黑体";font-size:14px;float:left;}
@@ -82,6 +86,17 @@ p{word-wrap:break-word}
 .catgry_box dl dd a{float:left;width:100%;background-image:none;color:#5D5C5C;text-align:center;text-indent:0px}
 .bt_line{width:540px;height:1px;border-bottom:1px solid #ccc;float:left;margin:6px 0px 6px 13px;}
 /* category end */
+
+/* news_list begin */
+.news_list{width:1002px;border:1px solid #ccc;float:left;margin-top:12px;}
+.news_menu{width:100%;float:left;height:44px;background:url(../images/bg_news_list_title.jpg) left center repeat-x;}
+.news_menu h3{float:left;font-size:14px;color:#015FB1;padding:13px 0px;margin-left:20px}
+.news_menu .weizhi{float:right;margin-right:10px;padding:14px 0px}
+.news_list_box{width:100%;float:left;}
+.news_list_box ul{padding:20px;}
+.news_list_box ul li{width:950px;height:28px;line-height:28px;background:url(../images/bg_news_list_icon.jpg) left center no-repeat;padding-left:14px}
+.news_list_box ul li a{width:100%;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/* news_list end */
 
 
 .foot{width:1004px;margin:0px auto;margin-top:10px}
